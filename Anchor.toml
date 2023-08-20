@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+myproject = "GsL7VedhpmqitZnfzPgi6D7QZhC2xVQ2DEVZQYhHYUiH"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/daryltng/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myproject.js"
